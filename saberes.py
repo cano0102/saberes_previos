@@ -268,7 +268,11 @@ def pago_de_los_empledos():
 
     empleado["sueldo_final"] = sueldo_final
 
+<<<<<<< HEAD
 pago_de_los_empledos()
+=======
+    #ay dios jmmmm
+>>>>>>> 3d5ab2bd92487dbe955b268f87c59850e53d083f
 
 
 
