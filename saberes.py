@@ -268,6 +268,7 @@ def pago_de_los_empledos():
 
     empleado["sueldo_final"] = sueldo_final
 
+    #ay dios jmmmm
 
 
 
