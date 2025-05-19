@@ -1,3 +1,6 @@
+
+
+
 # 10. Una tienda ofrece un descuento del 15% sobre el total de la compra y un cliente desea saber cuánto deberá pagar finalmente por su compra.
 
 
@@ -212,12 +215,43 @@ def agregar_venta():
 agregar_venta()
 
 
-
-
-
-    
+# 16. Suponga que un conductor le pide a usted que le haga un algoritmo para calcular cuánto le corresponde en un día trabajado, teniendo en cuenta que tiene derecho a el 19% del total recaudado.
 
 
 
 
 
+#   17. Desarrollar un algoritmo que permita generar la colilla de pago de los empleados de una   empresa. La colilla debe mostrar:
+#     • El Salario del Empleado 
+#     • El Valor de Ahorro mensual programado.
+#     • La suma a deducir por aporte a la Salud (EPS) 12,5 %
+#     • La suma a deducir por aporte al Fondo de Pensiones  16%
+#     • Total a Recibir 
+#     • Toda la información que debe proveer el usuario del programa es el  Salario del Empleado y el Valor de Ahorro mensual programado. El programa debe calcular y devolver el resto de los datos.4
+
+
+
+
+
+# 18. En una universidad los estudiantes pueden pagar el valor de su matrícula en cuatro cuotas de la siguiente forma 
+
+# • Primera cuota: 40% 
+# • Segunda cuota: 25%
+# •  Tercera cuota: 20% 
+# • Cuarta cuota: 15% 
+
+
+# Diga cuanto es el valor que tiene que pagar por cuota un estudiante.
+
+
+
+# 19) Ingresar, para un estudiante, sus 5 notas de un curso, nombre, programa, ficha.  Hacer un algoritmo que:
+# Muestre el nombre
+# Muestre el programa de formación
+
+# Se debe calcular y mostrar su promedio final.
+
+
+
+
+# 20) Ingresar el precio de compra unitario de un producto y la cantidad de compra de dicho producto y un descuento. Calcular y mostrar el subtotal, el monto del IVA que es el 19% del subtotal, y el precio neto (precio parcial con el Monto del IVA).
