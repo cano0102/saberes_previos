@@ -269,6 +269,9 @@ def pago_de_los_empledos():
     empleado["sueldo_final"] = sueldo_final
 
 
+pago_de_los_empledos()
+
+
 
 
 
