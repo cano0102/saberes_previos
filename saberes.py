@@ -290,9 +290,13 @@ def pago_de_los_empledos():
 # Muestre el nombre
 # Muestre el programa de formación
 
+# <<<<<<< HEAD
 # Se debe calcular y mostrar su promedio final.
 
 
 
 
 # 20) Ingresar el precio de compra unitario de un producto y la cantidad de compra de dicho producto y un descuento. Calcular y mostrar el subtotal, el monto del IVA que es el 19% del subtotal, y el precio neto (precio parcial con el Monto del IVA)
+# =======
+# Se debe calcular y mostrar su promedio final.
+# >>>>>>> eb0fce9552503266d0100ae0fa3f6b271492bb82
