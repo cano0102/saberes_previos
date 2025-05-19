@@ -62,7 +62,7 @@ Se debe calcular y mostrar su promedio final.
 
 21) Realice un algoritmo que permita realizar el cálculo del siguiente enunciado, se solicita el año de nacimiento del aprendiz, el nombre, la dirección, se requiere conocer la edad de la persona y la información completa ingresada. 
 
-22)Se tienen tres baldes de agua, uno de cinco litros, otros de tres litros y otro de un litro; si el de un litro tarda una hora y media en llenarse, resuelva cuanto tiempo pueden tardar en llenarse los otros baldes. 
+22)e tienen tres baldes de agua, uno de cinco litros, otros de tres litros y otro de un litro; si el de un litro tarda una hora y media en llenarse, resuelva cuanto tiempo pueden tardar en llenarse los otros baldes. 
 Si tiene tres baldes, pero se desconoce su tamaño debe de resolver igualmente el ejercicio. 
 
 23) Una persona tarda 5 horas en subir una montaña de 7 metros, si un escalador desea subir más o menos de la montaña, cuanto tiempo tarda en subir. Debe de resolver el ejercicio. 

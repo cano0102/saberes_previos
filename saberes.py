@@ -268,6 +268,7 @@ def pago_de_los_empledos():
 
     empleado["sueldo_final"] = sueldo_final
 
+pago_de_los_empledos()
 
 
 
@@ -284,6 +285,29 @@ def pago_de_los_empledos():
 
 # Diga cuanto es el valor que tiene que pagar por cuota un estudiante.
 
+
+def valor_matricula():
+    
+    valor_de_matricula = float(input("DAME EL VALOR DE TU MATRUCULA: "))
+
+    valor_matricula_40 = (valor_de_matricula * 40) / 100
+
+    print("EL VALOR DE LA PRIMERA PATER ES:", valor_matricula_40)
+
+    valor_matricula_25 = (valor_de_matricula * 25) / 100
+
+    print("EL VALOR DE LA PRIMERA PATER ES:", valor_matricula_25)
+
+    valor_matricula_20= (valor_de_matricula * 20) / 100
+
+    print("EL VALOR DE LA PRIMERA PATER ES:", valor_matricula_20)
+
+    valor_matricula_15 = (valor_de_matricula * 15) / 100
+
+    print("EL VALOR DE LA PRIMERA PATER ES:", valor_matricula_15)
+
+
+valor_matricula()
 
 
 # 19) Ingresar, para un estudiante, sus 5 notas de un curso, nombre, programa, ficha.  Hacer un algoritmo que:
