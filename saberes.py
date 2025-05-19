@@ -121,7 +121,7 @@ while True:
         prod["nombre"] = "pantalon"
         prod["precio"] = 800000 
         productos_comprados.append(prod)
-        
+
         print("COMPRA EXITOSA✅")
 
     elif opcion == 4:
@@ -240,6 +240,37 @@ def calcular_cuanto_le_corresponde_por_lo_recaudado():
 #     • Toda la información que debe proveer el usuario del programa es el  Salario del Empleado y el Valor de Ahorro mensual programado. El programa debe calcular y devolver el resto de los datos.4
 
 
+def pago_de_los_empledos():
+    
+    empleado = {}
+    salario_empleado = float(input("DAME EL SALARIO MENSUAL: "))
+    empleado["salario_sin_descuentos"] = salario_empleado
+
+    ahorro_mesual_programado = float(input("DAME EL AHORRO MENSUAL PROGRAMADO: "))
+    empleado["descuento_de_el ahorro"] = ahorro_mesual_programado
+
+
+    DESCUENTO_EPS = 12.5
+    empleado["descuento_EPS"] = DESCUENTO_EPS 
+
+    PENSION = 16
+    empleado["descuento_pension"] = PENSION
+   
+
+    total_ahorro = salario_empleado - ahorro_mesual_programado 
+
+    total_eps = (salario_empleado * DESCUENTO_EPS) / 100
+    total_pension = (salario_empleado * PENSION) / 100
+
+
+    sueldo_final = salario_empleado - total_eps - total_pension - ahorro_mesual_programado
+
+
+    empleado["sueldo_final"] = sueldo_final
+
+
+
+
 
 
 
@@ -264,4 +295,4 @@ def calcular_cuanto_le_corresponde_por_lo_recaudado():
 
 
 
-# 20) Ingresar el precio de compra unitario de un producto y la cantidad de compra de dicho producto y un descuento. Calcular y mostrar el subtotal, el monto del IVA que es el 19% del subtotal, y el precio neto (precio parcial con el Monto del IVA).
+# 20) Ingresar el precio de compra unitario de un producto y la cantidad de compra de dicho producto y un descuento. Calcular y mostrar el subtotal, el monto del IVA que es el 19% del subtotal, y el precio neto (precio parcial con el Monto del IVA)
